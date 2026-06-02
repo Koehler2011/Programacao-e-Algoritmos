@@ -13,7 +13,8 @@ int main() {
         if (i == 1) {
             maior = num;
             menor = num;
-        } else {
+        }
+        else {
             if (num > maior) {
                 maior = num;
             }

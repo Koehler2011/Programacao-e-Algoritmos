@@ -1,5 +1,5 @@
 # Programacao-e-Algoritmos
 
-Professor: Ronildo
+# Professor: Ronildo
 
 Estamos aprendendo: Portugol e C++

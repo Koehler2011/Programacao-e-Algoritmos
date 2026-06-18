@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <algorithm> 
+#include <algorithm> // min_element, max_element
 
 using namespace std;
 
@@ -12,6 +12,7 @@ int main() {
         cin >> numeros[i];
     }
 
+    // Encontrar índices do menor e maior valor
     int indiceMin = distance(numeros.begin(), min_element(numeros.begin(), numeros.end()));
     int indiceMax = distance(numeros.begin(), max_element(numeros.begin(), numeros.end()));
 
@@ -20,3 +21,6 @@ int main() {
 
     return 0;
 }
+//EXPLICACOES:
+//min_element(numeros.begin(), numeros.end()) =retorna um iterador (Um iterador é um objeto que permite ao programador percorrer um conjunto de elementos, como listas ou dicionários, um elemento a um tempo) apontando para o menor elemento do vetor.
+//distance(numeros.begin(), iterador) = converte o iterador em índice (posição no vetor).

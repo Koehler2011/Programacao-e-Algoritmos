@@ -1,3 +1,5 @@
 # Programacao-e-Algoritmos
 
-Estamos aprendendo: Portugol, C e C++
+Professor: Ronildo
+
+Estamos aprendendo: Portugol e C++
